@@ -1,5 +1,8 @@
 # Baguette# LSP Implementation
-This is the LSP implementation of Baguette#
+Welcome to the LSP implementation of Baguette#
+
+[![Rust-CI](https://github.com/coco33920/baguette-lsp/actions/workflows/rust.yml/badge.svg)](https://github.com/coco33920/baguette-lsp/actions/workflows/rust.yml)
+[![Rust-Clippy](https://github.com/coco33920/baguette-lsp/actions/workflows/rust-clippy.yml/badge.svg)](https://github.com/coco33920/baguette-lsp/actions/workflows/rust-clippy.yml)
 
 # Run 
 ```bash
