@@ -11,5 +11,13 @@ description = "The official LSP implementation of the Baguette# language"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-tokio = { version = "1.33.0", features = ["full"] }
+chumsky = "0.9.3"
+env_logger = { version = "0.10.0", features = [] }
+ropey = "1.5.0"
+serde_json = { version = "1.0.78", features = [] }
+tokio = { version = "1.17.0", features = ["full"] }
 tower-lsp = { version = "0.20.0", features = ["proposed"]}
+serde = { version = "1.0", features = ["derive"] }
+dashmap = "5.1.0"
+log = "0.4.14"
+im-rc = "15.0.0"
